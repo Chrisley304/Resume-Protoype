@@ -449,6 +449,10 @@ img{
 .button:hover .uil-file-download-alt{
     transform: translateY(.15rem)
 }
+
+.button:hover .uil-download-alt{
+    transform: translateY(.15rem)
+}
 /*==================== SKILLS ====================*/
 .skills__container{
     row-gap: 0;
