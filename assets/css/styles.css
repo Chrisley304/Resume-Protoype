@@ -518,6 +518,9 @@ img{
 .skills_html{
     width: 60%;
 }
+.skills_dart{
+    width: 30%;
+}
 
 .skills_css{
     width: 50%;
@@ -526,17 +529,30 @@ img{
 .skills_js{
     width: 25%;
 }
+.skills_premiere{
+    width: 40%;
+}
+.skills_office{
+    width: 80%;
+}
 
 .skills_java{
     width: 70%;
+}
+
+.skills_php{
+    width: 20%;
+}
+.skills_drupal{
+    width: 40%;
 }
 
 .skills_firebase{
     width: 20%;
 }
 
-.skills_kotlin{
-    width: 10%;
+.skills_flutter{
+    width: 25%;
 }
 
 .skills_photoshop{
@@ -1031,7 +1047,7 @@ img{
 /*==================== MEDIA QUERIES ====================*/
 /* For xs-small devices */
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 430px){
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -1084,7 +1100,14 @@ img{
     .swiper-button-next{
         right: 1.5rem;
     }
-    
+
+    .qualification__tabs{
+        display: flex;
+        flex-flow: row wrap;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 }
 
